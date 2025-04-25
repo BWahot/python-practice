@@ -1,0 +1,8 @@
+def factorial(x):
+    result=1
+    for n in range(1, x+1):
+        result *=n
+    return result
+    
+y=factorial(5)
+print("factorial=",y)

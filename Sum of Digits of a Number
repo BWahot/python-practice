@@ -1,0 +1,8 @@
+def sum_list(x):
+    total=0
+    for num in str(x):
+        total +=int(num)
+    return total
+
+result=sum_list(1234)
+print("The sum is:",result)

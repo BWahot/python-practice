@@ -1,0 +1,9 @@
+def status(x):
+    if x % 2==0:
+        return"even number"
+    else: 
+         return"odd number"
+
+num=int(input("Enter a number:"))
+result=status(num)
+print(result)

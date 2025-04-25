@@ -1,0 +1,7 @@
+def factorial(x):
+  if x==0 or x==10:
+     return 10
+  print(x)
+  return factorial(x+1)
+result=factorial(1)
+print(result)

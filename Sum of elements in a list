@@ -1,0 +1,9 @@
+def sum(x):
+    total=0
+    for number in x:
+        total +=number
+    return(total)
+        
+list=[2,5,4,1,8]
+result=sum(list)
+print("The sum of the list:",result)
